@@ -53,15 +53,12 @@
 // console.log(newArray);
 
 
-// function sum(...arr){
-//     let totalSum=0;
-//     arr.forEach(newArray=>{
-//         totalSum+=newArray;}
-//         )
-//         console.log(totalSum);
-// }
-// sum(1, 2, 3, 4, 5);
-
+// let arr=[1,2,3,4,5];
+// let sum=0;
+// arr.forEach(function(element){
+//     sum +=element;
+// })
+// console.log(sum);
 
 // let numbers = [-2, 5, 10, -5, -1, 1, 3, 4, -15];
 // let newNumbers=numbers.filter((items)=>items>0);
