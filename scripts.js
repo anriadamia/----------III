@@ -27,7 +27,20 @@
 // let newLanguages=languages.filter((item)=>item.length>3)
 // console.log(newLanguages);
 
-// let item=["12", "google", 32,"null", "yahoo",25];
+// let item = [12, "google", 32, null, "yahoo", 25];
+// let newArray=item.map(function(x){
+//     if(typeof x==="string"){
+//         return x.toUpperCase();
+//     }
+//     else if(typeof x==="number"){
+//         return Math.pow(x,2);
+//     }
+//     else{
+//         return x;
+//     }
+// }
+// )
+// console.log(newArray);
 
 // let words = ['Madrid', 'Rome', 'Milan', 'Berlin'];
 // let newWords=words.filter((item)=>item.includes("m") || item.includes("M"))
@@ -67,3 +80,5 @@
 // let array =[1, 2, 3, 4, 5];
 // array.splice(3,0,"a","b","c")
 // console.log(array);
+
+
